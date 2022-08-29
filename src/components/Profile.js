@@ -35,7 +35,6 @@ const Profile = ()=> {
         setBirthday(birthday)
         setEmail(mail)
         setNumber(number)
-        console.log(userProfile);
     }
 
 
