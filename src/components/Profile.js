@@ -13,9 +13,10 @@ const Profile = ()=> {
     const [image,setImage] = useState("")
     const[number, setNumber]=useState("")
 
-    useEffect ( () => {
-      getData()
-    } , [])
+    useEffect(() => {
+        getData();
+     // eslint-disable-next-line
+     }, []);
     var randomProfile = require('random-profile-generator');
     const getData=()=>{
    let userProfile=  randomProfile.profile()
